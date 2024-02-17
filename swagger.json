@@ -49,10 +49,10 @@
                 "email": {
                   "example": "any"
                 },
-                "favoriteColor": {
+                "phone": {
                   "example": "any"
                 },
-                "birthday": {
+                "address": {
                   "example": "any"
                 }
               }
@@ -113,10 +113,10 @@
                 "email": {
                   "example": "any"
                 },
-                "favoriteColor": {
+                "phone": {
                   "example": "any"
                 },
-                "birthday": {
+                "address": {
                   "example": "any"
                 }
               }

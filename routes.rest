@@ -12,11 +12,11 @@ POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Ashley",
-    "lastName":"Weaver",
-    "email":"aWeaver@test.com",
-    "favoriteColor":"Brown",
-    "birthday":"06/19/2000"
+    "firstName":"Antony",
+    "lastName":"Webber",
+    "email":"aaawww@test.com",
+    "phone":"204-918-4556",
+    "address":"124 Academy Rd, Wpg, Canada R4T 4S4"
 }
 
 
@@ -25,11 +25,11 @@ PUT http://localhost:8080/contacts/6220bcb39cd507e920c75a0b HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Sarah",
-    "lastName":"Birch",
-    "email":"test@gmail.com",
-    "favoriteColor":"Green",
-    "birthday":"12/12/20"
+    "firstName":"Andres",
+    "lastName":"Brown",
+    "email":"andreab@test.com",
+    "phone":"405-903-1515",
+    "address":"66 Main St, Edmnton, Canada R4T 4S4"
 }
 ### DELETE contact
 DELETE http://localhost:8080/contacts/6220b775099269ff7b31ceab HTTP/1.1
@@ -48,11 +48,11 @@ POST https://cse341-instructor.herokuapp.com/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Ashley",
-    "lastName":"Weaver",
-    "email":"aWeaver@test.com",
-    "favoriteColor":"Brown",
-    "birthday":"06/19/2000"
+     "firstName":"Antony",
+    "lastName":"Webber",
+    "email":"aaawww@test.com",
+    "phone":"204-918-4556",
+    "address":"124 Academy Rd, Edmnton, Canada R4T 4S4"
 }
 
 
@@ -61,11 +61,11 @@ PUT https://cse341-instructor.herokuapp.com/contacts/6220bcb39cd507e920c75a0b HT
 content-type: application/json
 
 {
-    "firstName":"Sarah",
-    "lastName":"Birch",
-    "email":"sarahB@gmail.com",
-    "favoriteColor":"Yellow",
-    "birthday":"06/12/20"
+     "firstName":"Andres",
+    "lastName":"Brown",
+    "email":"andreab@test.com",
+    "phone":"405-903-1515",
+    "address":"66 Main St, Edmnton, Canada R4T 4S4"
 }
 
 
