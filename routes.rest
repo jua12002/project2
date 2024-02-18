@@ -8,7 +8,7 @@ GET http://localhost:8080/contacts/622023f642f9ab4cd6e060b3
 
 
 ### Create contact
-POST http://localhost:8080/contacts HTTP/1.1
+POST http://localhost:8080/contacts 
 content-type: application/json
 
 {
@@ -31,8 +31,14 @@ content-type: application/json
     "phone":"405-903-1515",
     "address":"66 Main St, Edmnton, Canada R4T 4S4"
 }
+
+
 ### DELETE contact
 DELETE http://localhost:8080/contacts/6220b775099269ff7b31ceab HTTP/1.1
+
+
+
+//Ask the teacher about herokuapp.
 
 // PRODUCTION Deploy
 ### Get all contacts

@@ -1,12 +1,12 @@
-/*
+
 const swaggerAutogen = require('swagger-autogen')();
 
 const doc = {
   info: {
     title: 'My API',
-    description: 'Temple API'
+    description: 'Contacts API'
   },
-  host: 'cse341-instructor.herokuapp.com',
+  host: 'localhost:8080',
   schemes: ['https']
 };
 
@@ -20,4 +20,3 @@ swaggerAutogen(outputFile, endpointsFiles, doc);
 // swaggerAutogen(outputFile, endpointsFiles, doc).then(async () => {
 //   await import('./index.js');
 // });
-*/
