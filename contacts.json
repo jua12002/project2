@@ -1,16 +1,1 @@
-{
-  "contact": {
-    "firstName":"Antony",
-    "lastName":"Webber",
-    "email":"aaawww@test.com",
-    "phone":"204-918-4556",
-    "address":"124 Academy Rd, Wpg, Canada R4T 4S4"
-  },
-  "contact2": {
-    "firstName":"Andres",
-    "lastName":"Brown",
-    "email":"andreab@test.com",
-    "phone":"405-903-1515",
-    "address":"66 Main St, Edmonton, Canada R4T 4S4"
-  }
-}
+[]
