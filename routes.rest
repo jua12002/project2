@@ -1,6 +1,6 @@
 // LOCALHOST
-### Get all contacts
 
+### Get all contacts
 GET http://localhost:8085/contacts
 
 
@@ -8,7 +8,7 @@ GET http://localhost:8085/contacts
 GET http://localhost:8085/contacts/65d6253d54cec76b2a133228
 
 
-### Create contact
+### POST - Create contact
 POST http://localhost:8085/contacts 
 content-type: application/json
 
@@ -21,7 +21,7 @@ content-type: application/json
 }
 
 
-### PUT contact
+### PUT or Update contact
 PUT http://localhost:8085/contacts/65d625b754cec76b2a13322b 
 content-type: application/json
 
@@ -30,10 +30,10 @@ content-type: application/json
     "lastName":"Brown",
     "email":"andreab@test.com",
     "phone":"405-903-1515",
-    "address":"66 Main St, Edmnton, Canada R4T 4S4"
+    "address":"66 Main St, Edmonton, Canada R4T 4S4"
 }
 
 
 ### DELETE contact
-DELETE http://localhost:8085/contacts/65d6259154cec76b2a13322a 
+DELETE http://localhost:8085/contacts/65d62d1554cec76b2a13322d
 
