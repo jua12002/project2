@@ -4,36 +4,36 @@
 GET http://localhost:8085/contacts
 
 
-### Get contact by id
-GET http://localhost:8085/contacts/65d6253d54cec76b2a133228
+### Get one contact by id
+GET http://localhost:8085/contacts/65d6258054cec76b2a133229
 
 
-### POST - Create contact
+### POST - Create new contact
 POST http://localhost:8085/contacts 
 content-type: application/json
 
 {
-    "firstName":"Amanda",
-    "lastName":"Webber",
-    "email":"awww@test.com",
-    "phone":"204-918-4886",
-    "address":"124 Academy Rd, Wpg, Canada R4T 4S4"
+    "firstName":"Louis",
+    "lastName":"Smith",
+    "email":"louiss@test.com",
+    "phone":"204-150-3693",
+    "address":"124 Main Rd, Alberta, Canada R4T 4S4"
 }
 
 
-### PUT or Update contact
+### PUT or Update contact by Id
 PUT http://localhost:8085/contacts/65d625b754cec76b2a13322b 
 content-type: application/json
 
 {
     "firstName":"Andres",
     "lastName":"Brown",
-    "email":"andreabrown@test.com",
+    "email":"andres@test.com",
     "phone":"405-903-1515",
     "address":"66 Main St, Edmonton, Canada R4T 4S4"
 }
 
 
-### DELETE contact
-DELETE http://localhost:8085/contacts/65debc87989c996667b6d355
+### DELETE one contact by Id
+DELETE http://localhost:8085/contacts/65e1e963d5f4edec33c6a162
 
